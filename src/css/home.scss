@@ -1,4 +1,4 @@
-@import "./variables.scss";
+@import './variables.scss';
 
 .daoList {
   padding: $base-padding;
@@ -19,6 +19,7 @@
 
 .HeroButtonGroup {
   margin-top: 40px;
+
   @media (min-width: $mobile + 1) {
     .Button:not(:first-child) {
       margin-left: 25px;
@@ -94,7 +95,7 @@
 .Roadmap {
   .roadmap-moon-icon {
     font-size: 4.5em;
-    padding-bottom:20px;
+    padding-bottom: 20px;
   }
 }
 
@@ -192,7 +193,6 @@
   font-size: 0.75em;
   color: white;
 }
-
 
 .ResponsiveIframe {
   position: absolute;

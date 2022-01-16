@@ -35,11 +35,12 @@ The `test-deploy` Github Action workflow will run on every pull request into `ma
 ## How to contribute
 
 If you are a repository contributor:
+
 1. Clone the repository on your local machine.
 2. Make a feature branch.
 3. Make cool changes on your feature branch.
-3. Push your branch to Github.
-4. Make a pull request into the `main` branch.
+4. Push your branch to Github.
+5. Make a pull request into the `main` branch.
 
 You can also make a pull request from a Github fork if you don't have permission to create a branch on the repository.
 

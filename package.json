@@ -9,7 +9,9 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
-    "clear": "docusaurus clear"
+    "clear": "docusaurus clear",
+    "format": "prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.13",
@@ -47,5 +49,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "husky": ">=6",
+    "lint-staged": ">=10",
+    "prettier": "^2.5.1"
+  },
+  "lint-staged": {
+    "*": "prettier --write ."
   }
 }
